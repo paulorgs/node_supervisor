@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node cluster.js --app=index.js --instances=4",
+    "start": "node src/cluster.js --app=./index.js --instances=4 --strategy=replace_one_by_one" ,
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
