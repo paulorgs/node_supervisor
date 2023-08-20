@@ -1,0 +1,49 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Logs and debugging
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# User-specific files
+.idea/
+.vscode/
+
+# Ignore npm lock files
+package-lock.json
+yarn.lock
+
+# Mac-specific files
+.DS_Store
+
+# Compiled TypeScript
+# *.js
+
+# Compiled TypeScript Types
+*.d.ts
+
+# Test coverage
+coverage/
+
+# Editors
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Jest Snapshot directory
+__snapshots__/
+
+# Cypress specific files
+cypress/
