@@ -1,8 +1,6 @@
 const yargs = require('yargs')
 const os = require('node:os')
 
-
-
 const get_args = () => {
 
     const argv = yargs
@@ -23,11 +21,7 @@ const get_args = () => {
         })
         .argv;
 
-
-
-    const { app, instances } = argv
-
-    return { app, instances }
+    return argv
 }
 
 module.exports={
